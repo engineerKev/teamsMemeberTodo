@@ -1,0 +1,43 @@
+.gridContainer {
+  display: grid;
+  padding: 0;
+}
+
+.maxContentWidth {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.addColoredBackground {
+  background-color: var(--light-grey)
+}
+
+.gridItem {
+  color: var(--bright-purple);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+
+.gridItemFlush {
+  padding: 0;
+}
+
+
+@media (max-width: 51.25rem) {
+  .maxContentWidth {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 17.5rem) {
+  .gridOuterSpacing {
+    margin: 2rem auto;
+  }
+}

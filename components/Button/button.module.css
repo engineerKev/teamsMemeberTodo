@@ -1,0 +1,34 @@
+.button {
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:disabled {
+  cursor: auto;
+  color: var(--light-grey);
+}
+
+.button:disabled:hover {
+  border: none;
+}
+
+.tealButton {
+  color: var(--teal);
+}
+
+.tealButton:focus, .tealButton:active, .tealButton:hover {
+  border: 0.0625rem solid var(--teal);
+  border-radius: 50%;
+}
+
+.circleButton {
+  width: 2.75rem;
+  height: 2.75rem;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.ghostButton {
+  background-color: transparent;
+}

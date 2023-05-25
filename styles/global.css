@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --teal: #05C7F2;
+  --black: #0C0C0C;
+  --purple: #292D63;
+  --bright-purple: #292D99;
+  --light-blue: #7A95C8;
+  --white: #F2F2F2;
+  --darkest-grey: #0C0C0C35;
+  --light-grey: #0C0C0C15;
+  --dark-grey: #0C0C0C25;
+}

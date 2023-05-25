@@ -1,0 +1,26 @@
+.center {
+  text-align: center;
+}
+
+.largeHeader {
+  font-size: 2rem;
+  margin: 1rem auto 3rem auto;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.flexEnd {
+  justify-self: flex-end;
+}
+
+.outline {
+  border: 0.0625em solid #eef;
+  box-shadow:
+    0 0.0625em 0.0625em hsl(0deg 0% 0% / 0.075),
+    0 0.125em 0.125em hsl(0deg 0% 0% / 0.075),
+    0 0.25em 0.25em hsl(0deg 0% 0% / 0.075),
+    0 0.5em 0.5em hsl(0deg 0% 0% / 0.075),
+    0 1em 1em hsl(0deg 0% 0% / 0.075)
+}
