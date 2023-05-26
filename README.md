@@ -12,3 +12,7 @@ Next.js and React.js application showcasing 4 pages. The app is composed of 3 pa
 * Css Modules are used for styling. 
 * Application uses mocked data objs.
 
+## Set up
+
+* Run ```yarn install``` after cloning
+* Run ``yarn dev``` to start app locally
