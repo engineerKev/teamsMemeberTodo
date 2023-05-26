@@ -20,7 +20,7 @@ export default function Navigation() {
           rowStart='2'
           rowEnd='3'
           colStart={isMobile ? '2' : '3'}
-          colEnd={isMobile ? '5' : '5'}
+          colEnd='5'
           alignment='center'
         >
           <Link className={navMenuItem} href='/teams'>
@@ -31,7 +31,7 @@ export default function Navigation() {
         <GridItem
           rowStart='2'
           rowEnd='3'
-          colStart={isMobile ? '6' : '6'}
+          colStart='6'
           colEnd={isMobile ? '9' :'8' }
           alignment='center'
         >
