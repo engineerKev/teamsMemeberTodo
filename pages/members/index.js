@@ -25,7 +25,7 @@ export default function Members() {
             return (
               <tr key={memberObj.id} className={tr}>
                 <td className={td}>{`${memberObj['last_name']}, ${memberObj['first_name']}`}</td>
-                <td className={td}><Link href={`/teams/${memberObj.team.name.toLocaleLowerCase()}`}>{memberObj.team.name}</Link></td>
+                <td className={td}><Link href={`/teams/${memberObj.team.name.toLowerCase()}`}>{memberObj.team.name}</Link></td>
               </tr>
             )
           })}
